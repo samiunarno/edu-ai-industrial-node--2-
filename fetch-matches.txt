@@ -1,0 +1,7 @@
+  MATCH: function a(o){if(o.ep)return;o.ep=!0;const s=n(o);fetch(o.href,s)}})();var kM=typeof globalThis<"u"?globa
+  MATCH: =>x.createElement("link",{key:f,rel:"prefetch",as:"fetch",href:f,...n})))}function CY({page:e,matches:t,..
+  MATCH: =>x.createElement("link",{key:E,rel:"prefetch",as:"fetch",href:E,...n})),b.map(E=>x.createElement("link",{
+  MATCH: Submit"),{basename:t}=x.useContext(Gr),n=iY(),a=e.fetch,o=e.navigate;return x.useCallback(async(s,u={})=>
+  MATCH: ,d=async h=>{h.preventDefault();try{const v=await fetch("/api/auth/login",{method:"POST",headers:{"Conten
+  MATCH: ,s=async u=>{u.preventDefault();try{const f=await fetch("/api/auth/register",{method:"POST",headers:{"Con
+  MATCH: ("Content-Type","application/json");const o=await fetch(`/api${e}`,{...t,headers:a});if(o.status===401)th

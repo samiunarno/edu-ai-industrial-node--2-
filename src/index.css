@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700;900&family=JetBrains+Mono:wght@400;700;800&family=Crimson+Pro:ital,wght@1,400;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Archivo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Crimson Pro", ui-serif, Georgia, serif;
+}
+
+body {
+  color: #1c1917; /* stone-900 */
+  background-color: #fafaf9; /* stone-50 */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar styled strictly to Brutalism */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #fafaf9;
+  border-left: 2px solid #1c1917;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #1c1917;
+  border: 2px solid #1c1917;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #44403c;
+}
+
+/* Ensure proper scrolling and transitions */
+html {
+  scroll-behavior: smooth;
+  background-color: #fafaf9;
+}
